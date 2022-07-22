@@ -1,4 +1,4 @@
-def mostrar (Array parametros){
+def mostrar (Map parametros){
    sh $(parametros.Hola) | sh $(parametros.Esesto)
 }
 
