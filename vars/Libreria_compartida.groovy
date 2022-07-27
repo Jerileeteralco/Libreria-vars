@@ -1,3 +1,3 @@
 def llamada () {
-   sh echo $(parametros.Hola)
+   sh 'echo "Hola esto no es una prueba"'
 }
