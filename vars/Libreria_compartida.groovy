@@ -1,7 +1,8 @@
 def mostrar (Map parametros){
-   sh $(parametros.Hola) | sh $(parametros.Esesto)
+   sh echo $(parametros.Hola),
+   sh echo $(parametros.Esesto)
 }
 
 def otracosa (Map cosas) {
-    sh ping ${cosas.Adios}
+    sh echo ping ${cosas.Adios}
 }
